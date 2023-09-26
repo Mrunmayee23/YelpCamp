@@ -13,7 +13,12 @@
                 <input class="form-control" type="text" name="campground[location]" id="location" required>
                 <div class="valid-feedback">Looks good!</div>
             </div>
-            <input type="file" name="image" id="" multiple>
+            
+            <div class="input-group mb-3">
+                <input type="file" class="form-control" id="image" name="image" multiple>
+                <label class="input-group-text" for="image">Upload</label>
+              </div>
+            <!-- <input type="file" name="image" id="" multiple> -->
             <!-- <div class="mb-3">
                 <label class="form-label" for="image">Image Url</label>
                 <input class="form-control" type="text" name="campground[image]" id="image" required>
@@ -23,7 +28,7 @@
                 <label class="form-label" for="price">Campground price</label>
                 <div class="input-group">
                     <span class="input-group-text" id="price-label">$</span>
-                    <input type="text" class="form-control" id="price" name="campground[price] placeholder="0.00" aria-label="price" aria-describedby="price-label" required>
+                    <input type="text" class="form-control" id="price" name="campground[price]" placeholder="0.00" aria-label="price" aria-describedby="price-label" required>
                     <div class="valid-feedback">Looks good!</div>
             </div>
             </div>
